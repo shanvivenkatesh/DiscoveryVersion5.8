@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27651" started-at="2018-01-05T11:46:17Z" finished-at="2018-01-05T11:46:45Z">
+  <suite name="Default suite" duration-ms="96621" started-at="2018-01-10T13:36:08Z" finished-at="2018-01-10T13:37:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27651" started-at="2018-01-05T11:46:17Z" finished-at="2018-01-05T11:46:45Z">
-      <class name="discovery.Ecommerce.PageCheckRequestMore1000Characters">
-        <test-method status="PASS" signature="PageCheckRequestACopy()[pri:0, instance:discovery.Ecommerce.PageCheckRequestMore1000Characters@c6f5b]" name="PageCheckRequestACopy" duration-ms="27651" started-at="2018-01-05T11:46:17Z" finished-at="2018-01-05T11:46:45Z">
+    <test name="Default test" duration-ms="96621" started-at="2018-01-10T13:36:08Z" finished-at="2018-01-10T13:37:45Z">
+      <class name="discovery.Ecommerce.Dsa1939registerClickNo">
+        <test-method status="PASS" signature="Dsa1939registerClickNo()[pri:0, instance:discovery.Ecommerce.Dsa1939registerClickNo@c6f5b]" name="Dsa1939registerClickNo" duration-ms="96602" started-at="2018-01-10T13:36:08Z" finished-at="2018-01-10T13:37:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PageCheckRequestACopy -->
-      </class> <!-- discovery.Ecommerce.PageCheckRequestMore1000Characters -->
+        </test-method> <!-- Dsa1939registerClickNo -->
+      </class> <!-- discovery.Ecommerce.Dsa1939registerClickNo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

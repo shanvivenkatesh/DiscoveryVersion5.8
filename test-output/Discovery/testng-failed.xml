@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Discovery]">
-  <test name="cabinetPapersSearch(failed)">
+  <test name="DeliveryOption(failed)">
     <classes>
-      <class name="cabinetPapersSearch.CabinetPapers_Educationresources">
+      <class name="dicovery.DeliveryOption.MissingLost">
         <methods>
-          <include name="cabinetSearch"/>
+          <include name="missingLost"/>
         </methods>
-      </class> <!-- cabinetPapersSearch.CabinetPapers_Educationresources -->
+      </class> <!-- dicovery.DeliveryOption.MissingLost -->
+      <class name="dicovery.DeliveryOption.GovtWebArchive">
+        <methods>
+          <include name="govtWebArchive"/>
+        </methods>
+      </class> <!-- dicovery.DeliveryOption.GovtWebArchive -->
+      <class name="dicovery.DeliveryOption.UnAvailable">
+        <methods>
+          <include name="unAvailable"/>
+        </methods>
+      </class> <!-- dicovery.DeliveryOption.UnAvailable -->
     </classes>
-  </test> <!-- cabinetPapersSearch(failed) -->
+  </test> <!-- DeliveryOption(failed) -->
+  <test name="Ecommerce(failed)">
+    <classes>
+      <class name="discovery.Ecommerce.Dsa1939registerClickNo">
+        <methods>
+          <include name="Dsa1939registerClickNo"/>
+        </methods>
+      </class> <!-- discovery.Ecommerce.Dsa1939registerClickNo -->
+    </classes>
+  </test> <!-- Ecommerce(failed) -->
+  <test name="AdvancedSearchOnTest(failed)">
+    <classes>
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft">
+        <methods>
+          <include name="SearchTheNA_Taxonomy_Witchcraft"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft -->
+    </classes>
+  </test> <!-- AdvancedSearchOnTest(failed) -->
+  <test name="ManorSearchOnTest(failed)">
+    <classes>
+      <class name="discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch">
+        <methods>
+          <include name="ForManorDocuments_KeyWordSearch"/>
+        </methods>
+      </class> <!-- discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch -->
+    </classes>
+  </test> <!-- ManorSearchOnTest(failed) -->
 </suite> <!-- Failed suite [Discovery] -->
