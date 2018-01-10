@@ -103,6 +103,7 @@ System.out.println(driver.findElementByXPath("(//div[@class='order-option-wrappe
 		Assert.assertTrue(Offsitecheck.contains("AcademicSubscription"));
 		System.out.println("AcademicSubscription");
 		
+		System.out.println("AcademicSubscription");
 		driver.quit();
 		
 				
