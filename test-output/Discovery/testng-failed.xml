@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Discovery]">
+  <test name="cabinetPapersSearch(failed)">
+    <classes>
+      <class name="cabinetPapersSearch.CabinetPapers_Educationresources">
+        <methods>
+          <include name="cabinetSearch"/>
+        </methods>
+      </class> <!-- cabinetPapersSearch.CabinetPapers_Educationresources -->
+    </classes>
+  </test> <!-- cabinetPapersSearch(failed) -->
+</suite> <!-- Failed suite [Discovery] -->
